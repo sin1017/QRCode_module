@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/sin1017/QRCord_module/issues"
   },
-  "homepage": "https://github.com/sin1017/QRCord_module#readme"
+  "homepage": "https://github.com/sin1017/QRCord_module#readme",
+  "devDependencies": {
+    "ejs": "^3.1.9",
+    "ejs-locals": "^1.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
 }
